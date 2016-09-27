@@ -1,0 +1,112 @@
+body {
+    font-family: arial;
+    background-color: #f7f4f5;
+}
+
+.col {
+    border: 0px solid rgba(0, 0, 0, 0);
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-background-clip: padding-box !important;
+    -webkit-background-clip: padding-box !important;
+    background-clip: padding-box !important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+    float: left;
+    background-color: #efe4e9;
+}
+
+div.wrap-l {
+    float: left;
+}
+
+ul li a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+
+a.header {
+    font-size: 26px;
+    background-color: yellow !important;
+    padding: 5px;
+    font-weight: normal;
+}
+
+img.limg {
+    max-width: 220px;
+    max-height: 140px;
+    margin-left: 20px;
+    border: #49dce6 solid 5px;
+    -webkit-transform: rotate(-3deg);
+    transform: rotate(-3deg);
+    margin-right: 40px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 359px) {
+    .col {
+        margin-left: 0%;
+        padding: 0 10%;
+    }
+    .row .col:first-child {
+        margin-left: 0;
+    }
+    .span_1 {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 360px) and (max-width: 799px) {
+    .col {
+        margin-left: 0%;
+        padding: 0 14%;
+    }
+    .row .col:first-child {
+        margin-left: 0;
+    }
+    .span_1 {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1539px) {
+    .col {
+        margin-left: 0%;
+        padding: 0 20%;
+    }
+    .row .col:first-child {
+        margin-left: 0;
+    }
+    .span_1 {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1540px) {
+    .col {
+        margin-left: 0%;
+        padding: 0 22%;
+    }
+    .row .col:first-child {
+        margin-left: 0;
+    }
+    .span_1 {
+        margin-left: 0;
+        width: 100%;
+    }
+}
+
+#FCS_c70d613d49bd3f0b36a4793458b768e6_divFix {
+    display: none;
+}
